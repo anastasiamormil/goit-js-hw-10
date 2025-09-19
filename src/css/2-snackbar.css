@@ -1,0 +1,38 @@
+.form {
+  max-width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  border: 2px solid aliceblue;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-btn {
+  width: 199px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px green solid;
+  background-color: lightgreen;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+.form-btn:hover {
+  background-color: aqua;
+}
+fieldset {
+  border-color: aliceblue;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-label input {
+  width: 199px;
+  height: 25px;
+}

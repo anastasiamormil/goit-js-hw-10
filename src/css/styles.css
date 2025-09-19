@@ -8,11 +8,24 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
+@import url('./2-snackbar.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+@import url('./1-timer.css');
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: blue;
+  border: 4px burlywood solid;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.nav-link:hover {
+  color: aquamarine;
+}
